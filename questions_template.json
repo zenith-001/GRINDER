@@ -4,60 +4,378 @@
   },
   {
     "Questions": [
-      {
+    {
         "id": 1,
         "Question": "Camphor can be separated from the mixture of sand and camphor by:",
         "Options": [
-          {
-            "option": "Sublimation",
-            "isCorrect": true
-          },
-          {
-            "option": "Filtration",
-            "isCorrect": false
-          },
-          {
-            "option": "Distillation",
-            "isCorrect": false
-          },
-          {
-            "option": "Crystallisation",
-            "isCorrect": false
-          }
+            { "option": "Sublimation", "isCorrect": true },
+            { "option": "Filtration", "isCorrect": false },
+            { "option": "Distillation", "isCorrect": false },
+            { "option": "Crystallisation", "isCorrect": false }
         ],
-        "Attempted": {
-          "attempted": false,
-          "selectedOption": 0
-        },
+        "Attempted": { "attempted": false, "selectedOption": 0 },
         "Saved": false
-      },
-      {
+    },
+    {
         "id": 2,
         "Question": "From the given mixture of sand + iodine, Iodine is separated by:",
         "Options": [
-          {
-            "option": "Distillation",
-            "isCorrect": false
-          },
-          {
-            "option": "Sublimation",
-            "isCorrect": true
-          },
-          {
-            "option": "Crystallization",
-            "isCorrect": false
-          },
-          {
-            "option": "None",
-            "isCorrect": false
-          }
+            { "option": "Distillation", "isCorrect": false },
+            { "option": "Sublimation", "isCorrect": true },
+            { "option": "Crystallization", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
         ],
-        "Attempted": {
-          "attempted": false,
-          "selectedOption": 0
-        },
+        "Attempted": { "attempted": false, "selectedOption": 0 },
         "Saved": false
-      }
-    ]
+    },
+    {
+        "id": 3,
+        "Question": "Black ink is separated into different colour by:",
+        "Options": [
+            { "option": "Sublimation", "isCorrect": false },
+            { "option": "Chromatography", "isCorrect": true },
+            { "option": "Distillation", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 4,
+        "Question": "The father of chemistry is:",
+        "Options": [
+            { "option": "Dalton", "isCorrect": false },
+            { "option": "Lavoisier", "isCorrect": true },
+            { "option": "Rutherford", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 5,
+        "Question": "In the given mixture of sand + camphor, camphor is separated by:",
+        "Options": [
+            { "option": "Distillation process", "isCorrect": false },
+            { "option": "Sublimation process", "isCorrect": true },
+            { "option": "Evaporation process", "isCorrect": false },
+            { "option": "Decantation process", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 6,
+        "Question": "From the given solution of NaCl + water, NaCl is separated by:",
+        "Options": [
+            { "option": "Filtration", "isCorrect": false },
+            { "option": "Evaporation", "isCorrect": true },
+            { "option": "Sublimation", "isCorrect": false },
+            { "option": "Decantation", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 7,
+        "Question": "Phosphoric acid is used with hydrogen peroxide acts as:",
+        "Options": [
+            { "option": "-ve catalyst", "isCorrect": false },
+            { "option": "+ve catalyst", "isCorrect": true },
+            { "option": "Auto catalyst", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 8,
+        "Question": "Which one of the following reactions the hydrogen is replaced?",
+        "Options": [
+            { "option": "Isomer reaction", "isCorrect": false },
+            { "option": "Single displacement", "isCorrect": true },
+            { "option": "Double displacement", "isCorrect": false },
+            { "option": "Acid base reaction", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 9,
+        "Question": "Zn + dil HCl → ZnCl₂ + H₂ is the example of:",
+        "Options": [
+            { "option": "Neutralisation", "isCorrect": false },
+            { "option": "Single Displacement reaction", "isCorrect": true },
+            { "option": "Double displacement", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 10,
+        "Question": "A pressure cooker reduces cooking time because:",
+        "Options": [
+            { "option": "The heat is more evenly distributed.", "isCorrect": false },
+            { "option": "The higher pressure tenderizes the food.", "isCorrect": false },
+            { "option": "The boiling point of water inside is elevated.", "isCorrect": true },
+            { "option": "A large flame is used.", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 11,
+        "Question": "AgNO₃ + NaCl → AgCl + NaNO₃, is the example of:",
+        "Options": [
+            { "option": "Single displacement", "isCorrect": false },
+            { "option": "Double displacement", "isCorrect": true },
+            { "option": "Precipitation", "isCorrect": false },
+            { "option": "Both (b) and (c)", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 12,
+        "Question": "When a solid is turned into gaseous state due to heat and converts into solid is known as:",
+        "Options": [
+            { "option": "Melting", "isCorrect": false },
+            { "option": "Solidification", "isCorrect": false },
+            { "option": "Sublimation", "isCorrect": true },
+            { "option": "Vaporisation", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 13,
+        "Question": "Mixture of NaCl + water is separated by:",
+        "Options": [
+            { "option": "Evaporation", "isCorrect": true },
+            { "option": "Distillation", "isCorrect": false },
+            { "option": "Both a and b", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 14,
+        "Question": "Who is the father of chemistry?",
+        "Options": [
+            { "option": "Dalton", "isCorrect": false },
+            { "option": "Berzelius", "isCorrect": false },
+            { "option": "Lavoisier", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 15,
+        "Question": "Which one is physical change?",
+        "Options": [
+            { "option": "Burning of S in air", "isCorrect": false },
+            { "option": "Burning of C in air", "isCorrect": false },
+            { "option": "Corrosion of metal", "isCorrect": false },
+            { "option": "Conversion of white phosphorus to red phosphorus", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 16,
+        "Question": "You are given AgCl in aqueous solution, how would you separate AgCl?",
+        "Options": [
+            { "option": "Sublimation", "isCorrect": false },
+            { "option": "Atmolysis", "isCorrect": false },
+            { "option": "Solvent extraction", "isCorrect": false },
+            { "option": "Filtration", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 17,
+        "Question": "The first person to receive Nobel prize in chemistry is:",
+        "Options": [
+            { "option": "Rutherford", "isCorrect": false },
+            { "option": "Chadwick", "isCorrect": false },
+            { "option": "Lavoisier", "isCorrect": false },
+            { "option": "Vant Hoff", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 18,
+        "Question": "Formation of sodium metal from fused sodium chloride is the example of:",
+        "Options": [
+            { "option": "Synthesis reaction", "isCorrect": false },
+            { "option": "Analysis reaction", "isCorrect": true },
+            { "option": "Reversible reaction", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 19,
+        "Question": "Fractional distillation is used for separation of two miscible liquids and is based on difference in boiling points of two liquids. Fractional crystallization is based on:",
+        "Options": [
+            { "option": "Nature of crystal", "isCorrect": false },
+            { "option": "Weight of crystal", "isCorrect": false },
+            { "option": "Colour of crystal", "isCorrect": false },
+            { "option": "Solubility of solids in solvent", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 20,
+        "Question": "Burning of candle is:",
+        "Options": [
+            { "option": "Physical", "isCorrect": false },
+            { "option": "Chemical", "isCorrect": true },
+            { "option": "Both a and b", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 21,
+        "Question": "Mixture containing NaCl + Water, NaCl is separated by:",
+        "Options": [
+            { "option": "Distillation", "isCorrect": false },
+            { "option": "Sublimation", "isCorrect": false },
+            { "option": "Evaporation", "isCorrect": true },
+            { "option": "Both (a) and (c)", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 22,
+        "Question": "The ratio of Nitrogen and Hydrogen in Ammonia by volume is:",
+        "Options": [
+            { "option": "1:14", "isCorrect": false },
+            { "option": "3:1", "isCorrect": true },
+            { "option": "1:3", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 23,
+        "Question": "Metal A displaced metal B from a solution of its ions. Metal B displaced metal C from solution of its ions. What could A, B and C have been?",
+        "Options": [
+            { "option": "Calcium, Silver, Sodium", "isCorrect": false },
+            { "option": "Calcium, Sodium, Silver", "isCorrect": true },
+            { "option": "Sodium, Calcium, Silver", "isCorrect": false },
+            { "option": "Silver, Sodium, Calcium", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 24,
+        "Question": "Which of the following is the best method of obtaining pure water from ink?",
+        "Options": [
+            { "option": "Chromatography", "isCorrect": false },
+            { "option": "Distillation", "isCorrect": true },
+            { "option": "Filtration", "isCorrect": false },
+            { "option": "Freezing", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 25,
+        "Question": "Which of the following statements is correct for the reaction Fe₃O₄ + 4H₂ → 3Fe + 3H₂O?",
+        "Options": [
+            { "option": "It is a combination reaction.", "isCorrect": false },
+            { "option": "Hydrogen acts as an oxidising agent.", "isCorrect": false },
+            { "option": "Fe₃O₄ acts as a reducing agent.", "isCorrect": true },
+            { "option": "Hydrogen acts as a reducing agent.", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 26,
+        "Question": "Father of chemistry is:",
+        "Options": [
+            { "option": "Lavoisier", "isCorrect": true },
+            { "option": "Berzelius", "isCorrect": false },
+            { "option": "Dalton", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 27,
+        "Question": "Which change can involve both condensation and freezing?",
+        "Options": [
+            { "option": "C", "isCorrect": false },
+            { "option": "A", "isCorrect": false },
+            { "option": "D", "isCorrect": false },
+            { "option": "B", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 28,
+        "Question": "The reaction Zn + H₂SO₄ → ZnSO₄ + H₂ is an example of:",
+        "Options": [
+            { "option": "Displacement reaction", "isCorrect": true },
+            { "option": "Combination reaction", "isCorrect": false },
+            { "option": "Decomposition reaction", "isCorrect": false },
+            { "option": "Acid – Base reaction", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 29,
+        "Question": "Potassium Nitrate crystals can be separated from sand using the four processes shown below. Which of the following shows the process in the correct order?",
+        "Options": [
+            { "option": "Filter, Dissolve, Evaporate, Crystallize", "isCorrect": false },
+            { "option": "Dissolve, Evaporate, Crystallize, Filter", "isCorrect": false },
+            { "option": "Dissolve, Evaporate, Filter, Crystallize", "isCorrect": true },
+            { "option": "Dissolve, Filter, Evaporate, Crystallize", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 30,
+        "Question": "If the formula of an Aluminium compound is AlX, which of the following is true?",
+        "Options": [
+            { "option": "(NH₄)₃X", "isCorrect": false },
+            { "option": "NH₄X", "isCorrect": true },
+            { "option": "NH₄X₂", "isCorrect": false },
+            { "option": "NH₄X₃", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 31,
+        "Question": "The molecular formula of Litharge is:",
+        "Options": [
+            { "option": "PbS", "isCorrect": false },
+            { "option": "ZnO", "isCorrect": false },
+            { "option": "HgO", "isCorrect": false },
+            { "option": "PbO", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    }
+  ]
   }
 ]
