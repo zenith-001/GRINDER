@@ -1120,6 +1120,354 @@
         ],
         "Attempted": { "attempted": false, "selectedOption": 0 },
         "Saved": false
+    },
+        {
+        "id": 94,
+        "Question": "How many molecules are there in 1 mole of carbon-dioxide gas?",
+        "Options": [
+            { "option": "6.02x10²³ molecules", "isCorrect": true },
+            { "option": "6.02x10²⁷ molecules", "isCorrect": false },
+            { "option": "6.02x10³⁰ molecules", "isCorrect": false },
+            { "option": "6.02x10⁻³² molecules", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 95,
+        "Question": "Which of the following number is Avogadro’s number?",
+        "Options": [
+            { "option": "6.02x10²⁴", "isCorrect": false },
+            { "option": "6.023x10²³", "isCorrect": true },
+            { "option": "6.02x10²⁵", "isCorrect": false },
+            { "option": "6.02x10⁻²³", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 96,
+        "Question": "18 gram of water at NTP contains:",
+        "Options": [
+            { "option": "6.023 × 10²³ molecules", "isCorrect": true },
+            { "option": "3.012 × 10²³ molecules", "isCorrect": false },
+            { "option": "12.04 × 10²³ molecules", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 97,
+        "Question": "One mole of CO₂ contains:",
+        "Options": [
+            { "option": "6.023×10²³ atoms of oxygen", "isCorrect": true },
+            { "option": "6.023×10²³ atoms of carbon", "isCorrect": false },
+            { "option": "2×6.023×10²⁵ atoms of C", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 98,
+        "Question": "How many moles of H₂SO₄ are present in 24.5 gm of H₂SO₄?",
+        "Options": [
+            { "option": "1 mole", "isCorrect": false },
+            { "option": "0.5 mole", "isCorrect": true },
+            { "option": "0.25 mole", "isCorrect": false },
+            { "option": "0.15 mole", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 99,
+        "Question": "The number of water molecules present in 1 litre of water is:",
+        "Options": [
+            { "option": "18", "isCorrect": false },
+            { "option": "18 × 1000", "isCorrect": true },
+            { "option": "Nₐ", "isCorrect": false },
+            { "option": "55.55Nₐ", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 100,
+        "Question": "What will be the number of moles in 13.5 gm of SO₂Cl₂?",
+        "Options": [
+            { "option": "0.1", "isCorrect": false },
+            { "option": "1", "isCorrect": false },
+            { "option": "10", "isCorrect": false },
+            { "option": "100", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 101,
+        "Question": "0.5 mole of water at NTP contains water molecule is:",
+        "Options": [
+            { "option": "6.023 × 10²³", "isCorrect": false },
+            { "option": "½ × 6.023 × 10²³", "isCorrect": true },
+            { "option": "6.023 × 10⁻²³", "isCorrect": false },
+            { "option": "½ × 6.023 × 10⁻²³", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 102,
+        "Question": "8.5 gram of ammonia contains:",
+        "Options": [
+            { "option": "6.023 × 10²³ atoms of N₂", "isCorrect": false },
+            { "option": "½ × 6.023 × 10²³ atoms of N₂", "isCorrect": false },
+            { "option": "3 × 6.023 × 10²³ atoms of N₂", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 103,
+        "Question": "Magnesium reacts with oxygen to form magnesium oxide. 2Mg + O₂ → 2MgO. Which of the following statements is correct about the above change?",
+        "Options": [
+            { "option": "Two moles of magnesium react with one mole of oxygen atom to form two moles of magnesium oxide.", "isCorrect": true },
+            { "option": "12g magnesium reacts with 16g oxygen to form 28g magnesium oxide.", "isCorrect": false },
+            { "option": "24g magnesium reacts with 32g oxygen to form 80g magnesium oxide.", "isCorrect": false },
+            { "option": "48g magnesium reacts with 32g oxygen to form 80g magnesium oxide.", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 104,
+        "Question": "11-2 litre of steam contains ----- gram of hydrogen.",
+        "Options": [
+            { "option": "1 g", "isCorrect": false },
+            { "option": "2 g", "isCorrect": true },
+            { "option": "3 g", "isCorrect": false },
+            { "option": "4 g", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 105,
+        "Question": "Which of the following statements is correct about the thermal decomposition of magnesium carbonate?",
+        "Options": [
+            { "option": "One mole of magnesium carbonate gives one mole of magnesium oxide and two mole of carbon dioxide.", "isCorrect": true },
+            { "option": "Two mole of magnesium carbonate gives one mole of magnesium oxide and two mole of carbon dioxide.", "isCorrect": false },
+            { "option": "One mole of magnesium carbonate gives one mole of carbon dioxide and two mole of magnesium oxide.", "isCorrect": false },
+            { "option": "Two mole of magnesium carbonate gives two mole of magnesium oxide and two mole of carbon dioxide.", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 106,
+        "Question": "What is the exact weight of one atom of hydrogen?",
+        "Options": [
+            { "option": "1 gm", "isCorrect": false },
+            { "option": "1 amu", "isCorrect": true },
+            { "option": "1.008 g", "isCorrect": false },
+            { "option": "1.008 amu", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 107,
+        "Question": "Isotopes have:",
+        "Options": [
+            { "option": "Same atomic number", "isCorrect": true },
+            { "option": "Different number of neutrons", "isCorrect": true },
+            { "option": "Same number of neutrons", "isCorrect": false },
+            { "option": "Both a and b", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 108,
+        "Question": "The mass of a neutron is of the order of:",
+        "Options": [
+            { "option": "10⁻²³ Kg", "isCorrect": false },
+            { "option": "10⁻²⁴ Kg", "isCorrect": true },
+            { "option": "10⁻²⁶ Kg", "isCorrect": false },
+            { "option": "10⁻²⁷ Kg", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 109,
+        "Question": "The maximum number of electrons are:",
+        "Options": [
+            { "option": "71g in chlorine", "isCorrect": false },
+            { "option": "120g in magnesium", "isCorrect": false },
+            { "option": "127g in iodine", "isCorrect": true },
+            { "option": "4g in hydrogen", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 110,
+        "Question": "Which is the electron deficient molecule?",
+        "Options": [
+            { "option": "CH₄", "isCorrect": false },
+            { "option": "BF₃", "isCorrect": true },
+            { "option": "NH₃", "isCorrect": false },
+            { "option": "H₂O", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 111,
+        "Question": "Rutherford's atomic model is based on:",
+        "Options": [
+            { "option": "α-rays scattering experiment", "isCorrect": true },
+            { "option": "β-rays scattering experiment", "isCorrect": false },
+            { "option": "γ-rays scattering experiment", "isCorrect": false },
+            { "option": "δ-rays scattering experiment", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 112,
+        "Question": "The subatomic particle of an atom, which has no charge is known as:",
+        "Options": [
+            { "option": "Proton", "isCorrect": false },
+            { "option": "Neutron", "isCorrect": true },
+            { "option": "Electron", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 113,
+        "Question": "The smallest particle of matter which, generally participates in chemical reaction but has no free existence is known as:",
+        "Options": [
+            { "option": "Atom", "isCorrect": true },
+            { "option": "Molecule", "isCorrect": false },
+            { "option": "Element", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 114,
+        "Question": "The nucleus of atom is discovered by:",
+        "Options": [
+            { "option": "Avogadro", "isCorrect": false },
+            { "option": "Rutherford", "isCorrect": true },
+            { "option": "Dalton", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 115,
+        "Question": "The molecule term is given by:",
+        "Options": [
+            { "option": "Dalton", "isCorrect": false },
+            { "option": "Rutherford", "isCorrect": false },
+            { "option": "Avogadro", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 116,
+        "Question": "What is the gram molecular weight of oxygen molecule?",
+        "Options": [
+            { "option": "30 gram", "isCorrect": false },
+            { "option": "32 gram", "isCorrect": true },
+            { "option": "34 gram", "isCorrect": false },
+            { "option": "40 gram", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 117,
+        "Question": "In the given example, which is whole number?",
+        "Options": [
+            { "option": "Atomic mass", "isCorrect": false },
+            { "option": "Atomic number", "isCorrect": true },
+            { "option": "Equivalent", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 118,
+        "Question": "How many grams of hydrogen is present in 18 grams of water?",
+        "Options": [
+            { "option": "4 gram", "isCorrect": false },
+            { "option": "2 gram", "isCorrect": true },
+            { "option": "1 gram", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 119,
+        "Question": "How many grams of Oxygen is present in 36 grams of water?",
+        "Options": [
+            { "option": "16 gram", "isCorrect": true },
+            { "option": "32 gram", "isCorrect": false },
+            { "option": "8 gram", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 120,
+        "Question": "The ratio of Hydrogen and Oxygen in water by weight is:",
+        "Options": [
+            { "option": "1:2", "isCorrect": false },
+            { "option": "8:1", "isCorrect": true },
+            { "option": "1:8", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 121,
+        "Question": "The mass of an electron is:",
+        "Options": [
+            { "option": "1/1837 of that of Hydrogen", "isCorrect": true },
+            { "option": "2/1829 of that of Hydrogen", "isCorrect": false },
+            { "option": "1/2839 of that of Hydrogen", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 122,
+        "Question": "The ratio of Hydrogen and Oxygen in water by volume is:",
+        "Options": [
+            { "option": "2:1", "isCorrect": true },
+            { "option": "1:2", "isCorrect": false },
+            { "option": "1:8", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
     }
   ]
   }
