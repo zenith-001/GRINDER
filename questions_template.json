@@ -761,6 +761,366 @@
         "Saved": false
     },
     
+    {
+        "id": 64,
+        "Question": "Which of the following is indicator of progress and prosperity of country?",
+        "Options": [
+            { "option": "HCl", "isCorrect": false },
+            { "option": "HNO₃", "isCorrect": false },
+            { "option": "Aquaregia", "isCorrect": false },
+            { "option": "H₂SO₄", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 65,
+        "Question": "Molecular formula of calcium hypochlorite is:",
+        "Options": [
+            { "option": "Ca(OCl)₃₂", "isCorrect": false },
+            { "option": "Ca(OCl)₂", "isCorrect": true },
+            { "option": "Ca(ClO)₂", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 66,
+        "Question": "Molecular formula of dead burnt is:",
+        "Options": [
+            { "option": "CaSO₄.2H₂O", "isCorrect": false },
+            { "option": "(CaSO₄)₂", "isCorrect": true },
+            { "option": "CaSO₄", "isCorrect": false },
+            { "option": "CaSO₄.1.2H₂O", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 67,
+        "Question": "What happens when silver is treated with dil hydrochloric acid?",
+        "Options": [
+            { "option": "Silver chloride is formed.", "isCorrect": true },
+            { "option": "Hydrogen gas is evolved.", "isCorrect": false },
+            { "option": "Oxygen gas is evolved.", "isCorrect": false },
+            { "option": "It does not react with dil. HCl.", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 68,
+        "Question": "When steam is passed over heated iron, we get:",
+        "Options": [
+            { "option": "FeO + H₂", "isCorrect": false },
+            { "option": "Fe₂O₃ + H₂", "isCorrect": false },
+            { "option": "Fe₃O₄ + H₂", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 69,
+        "Question": "Molecular formula of bleaching powder is:",
+        "Options": [
+            { "option": "Ca(OCl)Cl", "isCorrect": false },
+            { "option": "Ca(OCl)₂", "isCorrect": true },
+            { "option": "CaOCl₂", "isCorrect": false },
+            { "option": "Both a and c", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 70,
+        "Question": "Molecular formula of Lunar Caustic is:",
+        "Options": [
+            { "option": "NaOH", "isCorrect": false },
+            { "option": "KOH", "isCorrect": false },
+            { "option": "AgNO₃", "isCorrect": true },
+            { "option": "AgCl", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 71,
+        "Question": "The molecular formula of quick lime is:",
+        "Options": [
+            { "option": "CaCO₃", "isCorrect": false },
+            { "option": "KOH", "isCorrect": false },
+            { "option": "Na₂CO₃", "isCorrect": false },
+            { "option": "CaO", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 72,
+        "Question": "Element X has electronic configuration structure 2.8.8.1. Element Y has electronic configuration structure 2.8.6. What is made when X and Y react?",
+        "Options": [
+            { "option": "Covalent compound X₂Y", "isCorrect": false },
+            { "option": "Covalent compound XY₂", "isCorrect": false },
+            { "option": "Electrovalent compound X₂Y", "isCorrect": true },
+            { "option": "Electrovalent compound XY₂", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 73,
+        "Question": "After acidification with dilute nitric acid, a colorless solution of X reacts with aq. Silver nitrate to give a white precipitate. What could be X?",
+        "Options": [
+            { "option": "Calcium iodide.", "isCorrect": false },
+            { "option": "Lead (II) chloride", "isCorrect": true },
+            { "option": "Lead (II) iodide", "isCorrect": false },
+            { "option": "Sodium chloride", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 74,
+        "Question": "The table shows the results of adding dilute hydrochloric acid and aqueous sodium hydroxide to a hydroxide. Which set of results is correct?",
+        "Options": [
+            { "option": "No reaction, Reaction", "isCorrect": false },
+            { "option": "No reaction, No reaction", "isCorrect": false },
+            { "option": "Reaction, Reaction", "isCorrect": true },
+            { "option": "Reaction, No reaction", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 75,
+        "Question": "In which pair of substances, does each have a giant molecular structure?",
+        "Options": [
+            { "option": "Diamond, Iodine", "isCorrect": false },
+            { "option": "Diamond, Silica (sand)", "isCorrect": true },
+            { "option": "Iodine, Methane", "isCorrect": false },
+            { "option": "Methane, Silica (sand)", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 76,
+        "Question": "Which atom forms an ion with a charge of 2+?",
+        "Options": [
+            { "option": "6", "isCorrect": false },
+            { "option": "8", "isCorrect": false },
+            { "option": "12", "isCorrect": true },
+            { "option": "15", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 77,
+        "Question": "What is the specific density of gold?",
+        "Options": [
+            { "option": "20 gram/cm³", "isCorrect": false },
+            { "option": "19.3 gram/cm³", "isCorrect": true },
+            { "option": "21 gram/cm³", "isCorrect": false },
+            { "option": "24.3 gram/cm³", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 78,
+        "Question": "What volume, in liters, of ammonia is produced when 22.4 liters of nitrogen are made to combine with a sufficient quantity of hydrogen under appropriate conditions?",
+        "Options": [
+            { "option": "11.2", "isCorrect": false },
+            { "option": "22.4", "isCorrect": true },
+            { "option": "44.8", "isCorrect": false },
+            { "option": "78.2", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 79,
+        "Question": "The value of universal gas constant (R) is:",
+        "Options": [
+            { "option": "0.0821 lit atm K⁻¹ mol⁻¹", "isCorrect": true },
+            { "option": "0.821 atm K⁻¹ mol⁻¹", "isCorrect": false },
+            { "option": "0.0821 Joule K⁻¹ mol⁻¹", "isCorrect": false },
+            { "option": "1.987 Joule K⁻¹ mol⁻¹", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 80,
+        "Question": "Which of the following pairs of gases contain the same number of molecules?",
+        "Options": [
+            { "option": "16 gm of O₂ and 14 gm of N₂", "isCorrect": false },
+            { "option": "8 gm of O₂ and 22 gm of CO₂", "isCorrect": false },
+            { "option": "28 gm of N₂ and 22 gm of Cl₂", "isCorrect": false },
+            { "option": "32 gm of O₂ and 32 gm of N₂", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 81,
+        "Question": "Solubility curve of sodium chloride in water with rise of temperature:",
+        "Options": [
+            { "option": "Increased rapidly", "isCorrect": true },
+            { "option": "Slightly increase", "isCorrect": false },
+            { "option": "No any change in solubility", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 82,
+        "Question": "The table shows the boiling points of some of the gases present in air. When air is cooled to -200 °C, some of these liquefy. Which gas liquefy?",
+        "Options": [
+            { "option": "Argon, helium and neon", "isCorrect": false },
+            { "option": "Argon, nitrogen and oxygen", "isCorrect": true },
+            { "option": "Helium, neon and nitrogen", "isCorrect": false },
+            { "option": "Helium and neon", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 83,
+        "Question": "Thickening of window glass after sometime is known as:",
+        "Options": [
+            { "option": "Hydration", "isCorrect": false },
+            { "option": "Hygroscopy", "isCorrect": true },
+            { "option": "Super cooling", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 84,
+        "Question": "Blood is example of:",
+        "Options": [
+            { "option": "Colloidal solution", "isCorrect": true },
+            { "option": "True solution", "isCorrect": false },
+            { "option": "Suspension", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 85,
+        "Question": "Particle size of solute in true solution is:",
+        "Options": [
+            { "option": "100 – 1000 Å", "isCorrect": false },
+            { "option": "1 – 10 Å", "isCorrect": true },
+            { "option": "4000 – 7000 Å", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 86,
+        "Question": "Which of the following is the formula of solubility?",
+        "Options": [
+            { "option": "Solubility = Wt. of solute (gram) / Wt. of Solvent (gram) x 100", "isCorrect": true },
+            { "option": "Solubility = Wt. of Solution (gram) / Wt. of Solvent (gram) x 100", "isCorrect": false },
+            { "option": "Solubility = Wt. of Solvent (gram) / Wt. of solute (gram) x 100", "isCorrect": false },
+            { "option": "None of the above", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 87,
+        "Question": "Tooth Paste is the example of:",
+        "Options": [
+            { "option": "Colloids", "isCorrect": true },
+            { "option": "Solution", "isCorrect": false },
+            { "option": "Suspension", "isCorrect": false },
+            { "option": "All of the above", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 88,
+        "Question": "Aqueous solution containing gas is example of:",
+        "Options": [
+            { "option": "Brass", "isCorrect": false },
+            { "option": "Coca cola", "isCorrect": true },
+            { "option": "Salt solution", "isCorrect": false },
+            { "option": "None of the above", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 89,
+        "Question": "For the solubility of given compound amount of solvent necessary is:",
+        "Options": [
+            { "option": "250 gram", "isCorrect": false },
+            { "option": "100 gram", "isCorrect": true },
+            { "option": "150 gram", "isCorrect": false },
+            { "option": "105 gram", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 90,
+        "Question": "Generally, when the saturated solution is heated it becomes:",
+        "Options": [
+            { "option": "Unsaturated", "isCorrect": true },
+            { "option": "Saturated", "isCorrect": false },
+            { "option": "Super saturated", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 91,
+        "Question": "Mixture of alcohol and water is example of:",
+        "Options": [
+            { "option": "Colloid", "isCorrect": false },
+            { "option": "Solution", "isCorrect": true },
+            { "option": "Suspension", "isCorrect": false },
+            { "option": "All of the above", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 92,
+        "Question": "Which of the following is insoluble in water?",
+        "Options": [
+            { "option": "NaCl", "isCorrect": false },
+            { "option": "CaCl₂", "isCorrect": false },
+            { "option": "AgCl", "isCorrect": true },
+            { "option": "BaCl₂", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 93,
+        "Question": "Which ion is present in the highest concentration in a 2 mol/dm³ aq. solution of sodium sulphate?",
+        "Options": [
+            { "option": "The hydrogen ion, H⁺", "isCorrect": false },
+            { "option": "The hydroxide ion, OH⁻", "isCorrect": false },
+            { "option": "The sodium ion, Na⁺", "isCorrect": true },
+            { "option": "The sulphate ion, SO₄²⁻", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
   ]
   }
 ]
