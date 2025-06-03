@@ -1468,6 +1468,54 @@
         ],
         "Attempted": { "attempted": false, "selectedOption": 0 },
         "Saved": false
+    },
+    {
+        "id": 123,
+        "Question": "Nucleus of the atom is discovered by:",
+        "Options": [
+            { "option": "Dalton", "isCorrect": false },
+            { "option": "Rutherford", "isCorrect": true },
+            { "option": "Thomson", "isCorrect": false },
+            { "option": "Niels Bohr", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 124,
+        "Question": "Atomic Number is:",
+        "Options": [
+            { "option": "Total number of protons in atom", "isCorrect": true },
+            { "option": "Total number of neutrons in atom", "isCorrect": false },
+            { "option": "Sum of protons and neutrons", "isCorrect": false },
+            { "option": "Number of electrons and protons", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 125,
+        "Question": "Isotopes are atoms of the same element which:",
+        "Options": [
+            { "option": "Contain same number of protons but different neutrons", "isCorrect": true },
+            { "option": "Contain different number of protons", "isCorrect": false },
+            { "option": "Have different atomic numbers", "isCorrect": false },
+            { "option": "Have same number of neutrons", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 126,
+        "Question": "What is Avogadro number?",
+        "Options": [
+            { "option": "6.022 x 10²³", "isCorrect": true },
+            { "option": "6.022 x 10²²", "isCorrect": false },
+            { "option": "3.142 x 10¹⁰", "isCorrect": false },
+            { "option": "9.81 m/s²", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
     }
   ]
   }
