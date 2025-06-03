@@ -376,6 +376,391 @@
         "Attempted": { "attempted": false, "selectedOption": 0 },
         "Saved": false
     }
+    {
+        "id": 32,
+        "Question": "Which one of the following is called aqua fortis?",
+        "Options": [
+            { "option": "HNO₃", "isCorrect": true },
+            { "option": "H₂SO₄", "isCorrect": false },
+            { "option": "HCl", "isCorrect": false },
+            { "option": "H₂CO₃", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 33,
+        "Question": "Acid-base reaction is basically:",
+        "Options": [
+            { "option": "Addition reaction", "isCorrect": false },
+            { "option": "Decomposition reaction", "isCorrect": false },
+            { "option": "Single displacement", "isCorrect": false },
+            { "option": "Double displacement", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 34,
+        "Question": "Rock salt is the ore of:",
+        "Options": [
+            { "option": "Na", "isCorrect": true },
+            { "option": "Cs", "isCorrect": false },
+            { "option": "Si", "isCorrect": false },
+            { "option": "Fe", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 35,
+        "Question": "The M.F. of calamine lotion is:",
+        "Options": [
+            { "option": "ZnCO₃", "isCorrect": false },
+            { "option": "ZnS", "isCorrect": false },
+            { "option": "ZnCl₂", "isCorrect": false },
+            { "option": "None", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 36,
+        "Question": "The molecular formula of galena is:",
+        "Options": [
+            { "option": "ZnS", "isCorrect": false },
+            { "option": "HgS", "isCorrect": false },
+            { "option": "PbS", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 37,
+        "Question": "The molecular formula of baking soda is:",
+        "Options": [
+            { "option": "Na₂CO₃", "isCorrect": false },
+            { "option": "CaCO₃", "isCorrect": false },
+            { "option": "NaHCO₃", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 38,
+        "Question": "Which of the following is diatomic?",
+        "Options": [
+            { "option": "Sodium", "isCorrect": false },
+            { "option": "Chlorine", "isCorrect": true },
+            { "option": "Carbon", "isCorrect": false },
+            { "option": "Potassium", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 39,
+        "Question": "The valency of oxygen is:",
+        "Options": [
+            { "option": "1", "isCorrect": false },
+            { "option": "2", "isCorrect": true },
+            { "option": "3", "isCorrect": false },
+            { "option": "4", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 40,
+        "Question": "When zinc is treated with sulfuric acid, the main product is:",
+        "Options": [
+            { "option": "ZnSO₄", "isCorrect": true },
+            { "option": "ZnO", "isCorrect": false },
+            { "option": "Zn(OH)₂", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 41,
+        "Question": "The gas which is obtained by heating ammonium nitrate is:",
+        "Options": [
+            { "option": "N₂", "isCorrect": false },
+            { "option": "NO", "isCorrect": false },
+            { "option": "N₂O", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 42,
+        "Question": "Molecular formula of plaster of Paris is:",
+        "Options": [
+            { "option": "CaSO₄.2H₂O", "isCorrect": false },
+            { "option": "(CaSO₄)₂.H₂O", "isCorrect": true },
+            { "option": "CaSO₄.H₂O", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 43,
+        "Question": "Molecular formula of hydrolith is:",
+        "Options": [
+            { "option": "CaCl₂", "isCorrect": false },
+            { "option": "CaSO₄", "isCorrect": false },
+            { "option": "CaH₂", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 44,
+        "Question": "Molecular formula of blue vitriol is:",
+        "Options": [
+            { "option": "FeSO₄.7H₂O", "isCorrect": false },
+            { "option": "CuSO₄.5H₂O", "isCorrect": true },
+            { "option": "ZnSO₄.7H₂O", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 45,
+        "Question": "Total number of electron in Fe³⁺ ion is:",
+        "Options": [
+            { "option": "23", "isCorrect": true },
+            { "option": "24", "isCorrect": false },
+            { "option": "26", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 46,
+        "Question": "Molecular formula of Litharge is:",
+        "Options": [
+            { "option": "PbS", "isCorrect": false },
+            { "option": "PbO", "isCorrect": true },
+            { "option": "Pb₃O₄", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 47,
+        "Question": "Molecular formula of Lunar Caustic is:",
+        "Options": [
+            { "option": "NaNO₃", "isCorrect": false },
+            { "option": "KNO₃", "isCorrect": false },
+            { "option": "AgNO₃", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 48,
+        "Question": "One molecule of sulphur contains ----- atoms.",
+        "Options": [
+            { "option": "6", "isCorrect": false },
+            { "option": "7", "isCorrect": false },
+            { "option": "8", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 49,
+        "Question": "The molecular formula of potassium ferrocynide is:",
+        "Options": [
+            { "option": "K₄[Fe(CN)₆]", "isCorrect": true },
+            { "option": "K₃[Fe(CN)₆]", "isCorrect": false },
+            { "option": "K₄[Fe(CN)₅]", "isCorrect": false },
+            { "option": "K₄[Fe(CN)₇]", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 50,
+        "Question": "What happens when NH₄OH is treated with AgCl?",
+        "Options": [
+            { "option": "Ag(NH₃)₂Cl is formed", "isCorrect": true },
+            { "option": "Ag(OH) is formed", "isCorrect": false },
+            { "option": "Ag(OH)Cl is formed", "isCorrect": false },
+            { "option": "No reaction", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 51,
+        "Question": "An atom having 20 protons will react with an atom of atomic number:",
+        "Options": [
+            { "option": "11", "isCorrect": false },
+            { "option": "14", "isCorrect": false },
+            { "option": "16", "isCorrect": false },
+            { "option": "10", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 52,
+        "Question": "The molecular formula of phosgene gas is:",
+        "Options": [
+            { "option": "CaOCl₂", "isCorrect": false },
+            { "option": "COCl", "isCorrect": false },
+            { "option": "COCl₂", "isCorrect": true },
+            { "option": "CoCl₂", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 53,
+        "Question": "Which of the following is known as philosophers wool?",
+        "Options": [
+            { "option": "ZnSO₄.7H₂O", "isCorrect": false },
+            { "option": "ZnO", "isCorrect": true },
+            { "option": "FeSO₄.7H₂O", "isCorrect": false },
+            { "option": "FeO", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 54,
+        "Question": "The reaction NH₄CNO → NH₂-CO-NH₂ is of the type:",
+        "Options": [
+            { "option": "Oxidation – reduction", "isCorrect": false },
+            { "option": "Isomerization", "isCorrect": false },
+            { "option": "Neutralization", "isCorrect": false },
+            { "option": "Analysis", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 55,
+        "Question": "Molecular formula of plaster of Paris is:",
+        "Options": [
+            { "option": "CaSO₄.H₂O", "isCorrect": false },
+            { "option": "(CaSO₄)₂.H₂O", "isCorrect": true },
+            { "option": "CaSO₄.2H₂O", "isCorrect": false },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 56,
+        "Question": "Molecular formula of green vitriol is:",
+        "Options": [
+            { "option": "CuSO₄.5H₂O", "isCorrect": false },
+            { "option": "FeSO₄.7H₂O", "isCorrect": true },
+            { "option": "ZnSO₄.7H₂O", "isCorrect": false },
+            { "option": "MgSO₄.7H₂O", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 57,
+        "Question": "A component whose molecular mass in 90 grams contains 40.0% carbon, 6.67% Hydrogen and 53.33% oxygen. What is true formula for the compound?",
+        "Options": [
+            { "option": "C₂H₂OH", "isCorrect": false },
+            { "option": "CH₂O₄", "isCorrect": false },
+            { "option": "C₃H₆O₃", "isCorrect": true },
+            { "option": "C₃HO₃", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 58,
+        "Question": "Molecular formula of Bleaching powder is:",
+        "Options": [
+            { "option": "Ca(OCl)Cl", "isCorrect": false },
+            { "option": "CaOCl", "isCorrect": false },
+            { "option": "Ca(OCl)₂", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 59,
+        "Question": "Molecular formula of lunar caustic is:",
+        "Options": [
+            { "option": "KOH", "isCorrect": false },
+            { "option": "NaOH", "isCorrect": false },
+            { "option": "AgNO₃", "isCorrect": true },
+            { "option": "None", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 60,
+        "Question": "All of the following are compounds except:",
+        "Options": [
+            { "option": "Copper Sulphate", "isCorrect": false },
+            { "option": "Carbon dioxide", "isCorrect": false },
+            { "option": "Washing Soda", "isCorrect": false },
+            { "option": "Air", "isCorrect": true }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 61,
+        "Question": "Element used in photoelectric cell is:",
+        "Options": [
+            { "option": "Li", "isCorrect": false },
+            { "option": "Na", "isCorrect": false },
+            { "option": "Cs", "isCorrect": true },
+            { "option": "Fr", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 62,
+        "Question": "Which has maximum number of atoms?",
+        "Options": [
+            { "option": "24 gm of C(12)", "isCorrect": false },
+            { "option": "56 g of Fe (56)", "isCorrect": false },
+            { "option": "26 gm of Al (27)", "isCorrect": true },
+            { "option": "108 gm of Ag (108)", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 63,
+        "Question": "Tear gas is chemically:",
+        "Options": [
+            { "option": "Acetyl salicylic acid", "isCorrect": false },
+            { "option": "Chloropicrin", "isCorrect": true },
+            { "option": "Phenyl isocyanide", "isCorrect": false },
+            { "option": "Carbon monoxide", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    
   ]
   }
 ]
