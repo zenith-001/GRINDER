@@ -1,0 +1,63 @@
+[
+  {
+    "Subject": "Chemistry"
+  },
+  {
+    "Questions": [
+      {
+        "id": 1,
+        "Question": "Camphor can be separated from the mixture of sand and camphor by:",
+        "Options": [
+          {
+            "option": "Sublimation",
+            "isCorrect": true
+          },
+          {
+            "option": "Filtration",
+            "isCorrect": false
+          },
+          {
+            "option": "Distillation",
+            "isCorrect": false
+          },
+          {
+            "option": "Crystallisation",
+            "isCorrect": false
+          }
+        ],
+        "Attempted": {
+          "attempted": false,
+          "selectedOption": 0
+        },
+        "Saved": false
+      },
+      {
+        "id": 2,
+        "Question": "From the given mixture of sand + iodine, Iodine is separated by:",
+        "Options": [
+          {
+            "option": "Distillation",
+            "isCorrect": false
+          },
+          {
+            "option": "Sublimation",
+            "isCorrect": true
+          },
+          {
+            "option": "Crystallization",
+            "isCorrect": false
+          },
+          {
+            "option": "None",
+            "isCorrect": false
+          }
+        ],
+        "Attempted": {
+          "attempted": false,
+          "selectedOption": 0
+        },
+        "Saved": false
+      }
+    ]
+  }
+]
