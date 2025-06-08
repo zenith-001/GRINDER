@@ -1,174 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive MCQs</title>
-  <script defer src="script.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive MCQs</title>
+    <script defer src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body class="bg-gray-900 text-white font-sans">
-  <div class="flex">
-    <!-- Side Panel for Saved Questions -->
-    <aside class="w-64 bg-gray-800 h-screen p-4 overflow-y-auto">
-      <h2 class="text-xl font-bold mb-4">Saved Questions</h2>
-      <ul id="saved-list" class="space-y-2"></ul>
-    </aside>
+    <div class="flex">
+        <!-- Side Panel for Saved Questions -->
+        <aside class="w-64 bg-gray-800 h-screen p-4 overflow-y-auto">
+            <h2 class="text-xl font-bold mb-4">Saved Questions</h2>
+            <ul id="saved-list" class="space-y-2"></ul>
+        </aside>
 
-    <main class="flex-1 p-6">
-      <div class="max-w-2xl mx-auto">
-        <h1 class="text-3xl font-bold mb-4">Interactive MCQs</h1>
-        <div id="question-box" class="p-4 border rounded bg-gray-800"></div>
+        <main class="flex-1 p-6">
+            <div class="max-w-2xl mx-auto">
+                <h1 class="text-3xl font-bold mb-4">Interactive MCQs</h1>
+                <div id="question-box" class="p-4 border rounded bg-gray-800"></div>
+                <div class="flex items-center gap-2 mt-4">
+                    <input id="goto-input" type="number" min="1" class="bg-gray-700 text-white p-2 rounded w-24"
+                        placeholder="Qn #" />
+                    <button id="goto-btn" class="bg-indigo-500 px-4 py-2 rounded">Go</button>
+                </div>
 
-        <div class="flex justify-between mt-4">
-          <button id="prev-btn" class="bg-blue-500 px-4 py-2 rounded">Previous</button>
-          <button id="next-btn" class="bg-blue-500 px-4 py-2 rounded">Next</button>
-        </div>
+                <div class="flex justify-between mt-4">
+                    <button id="prev-btn" class="bg-blue-500 px-4 py-2 rounded">Previous</button>
+                    <button id="next-btn" class="bg-blue-500 px-4 py-2 rounded">Next</button>
+                </div>
 
-        <div class="mt-4 flex justify-between flex-wrap gap-2">
-          <button id="save-btn" class="bg-yellow-500 px-4 py-2 rounded">Save Question</button>
-          <button id="google-btn" class="bg-green-500 px-4 py-2 rounded">Google It</button>
-          <button id="export-btn" class="bg-purple-500 px-4 py-2 rounded">Export Saved Data</button>
-        </div>
+                <div class="mt-4 flex justify-between flex-wrap gap-2">
+                    <button id="save-btn" class="bg-yellow-500 px-4 py-2 rounded">Save Question</button>
+                    <button id="google-btn" class="bg-green-500 px-4 py-2 rounded">Google It</button>
+                    <button id="export-btn" class="bg-purple-500 px-4 py-2 rounded">Export Saved Data</button>
+                </div>
 
-        <div id="score" class="mt-4 text-xl"></div>
-      </div>
-    </main>
-  </div>
+                <div id="score" class="mt-4 text-xl"></div>
+            </div>
+        </main>
+    </div>
 
-  <script>
-    const questions = [];
-    let subject = "Loading...";
-    let currentIndex = 0;
-    let score = 0;
+    <script>
+        const questions = [];
+        let subject = "Loading...";
+        let currentIndex = 0;
+        let score = 0;
 
-    fetch("questions_template.json")
-      .then(res => res.json())
-      .then(data => {
-        console.log(data);
-        subject = data[0].Subject;
-        questions.push(...data[1].Questions);
-        loadProgress();
-        renderQuestion();
-        updateSavedList();
-      });
+        fetch("questions_template.json")
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                subject = data[0].Subject;
+                questions.push(...data[1].Questions);
+                loadProgress();
+                renderQuestion();
+                updateSavedList();
+            });
 
-    function loadProgress() {
-      const stored = JSON.parse(localStorage.getItem("questionProgress") || "{}");
-      questions.forEach(q => {
-        if (stored[q.id]) {
-          Object.assign(q, stored[q.id]);
+        function loadProgress() {
+            const stored = JSON.parse(localStorage.getItem("questionProgress") || "{}");
+            questions.forEach(q => {
+                if (stored[q.id]) {
+                    Object.assign(q, stored[q.id]);
+                }
+            });
         }
-      });
-    }
 
-    function saveProgress() {
-      const progress = {};
-      questions.forEach(q => {
-        progress[q.id] = {
-          Attempted: q.Attempted,
-          Saved: q.Saved
+        function saveProgress() {
+            const progress = {};
+            questions.forEach(q => {
+                progress[q.id] = {
+                    Attempted: q.Attempted,
+                    Saved: q.Saved
+                };
+            });
+            localStorage.setItem("questionProgress", JSON.stringify(progress));
+        }
+        document.getElementById("goto-btn").onclick = () => {
+            const input = document.getElementById("goto-input");
+            const qnNumber = parseInt(input.value, 10);
+            if (!isNaN(qnNumber) && qnNumber >= 1 && qnNumber <= questions.length) {
+                currentIndex = questions.findIndex(q => q.id === qnNumber);
+                if (currentIndex !== -1) {
+                    renderQuestion();
+                } else {
+                    alert("Question ID not found.");
+                }
+            } else {
+                alert(`Enter a number between 1 and ${questions.length}`);
+            }
         };
-      });
-      localStorage.setItem("questionProgress", JSON.stringify(progress));
-    }
 
-    const questionBox = document.getElementById("question-box");
-    const scoreBox = document.getElementById("score");
-    const savedList = document.getElementById("saved-list");
 
-    function renderQuestion() {
-      const q = questions[currentIndex];
-      let html = `<h2 class="text-xl font-semibold">Q${q.id}: ${q.Question}</h2><ul class="mt-2">`;
-      q.Options.forEach((opt, i) => {
-        const isSelected = q.Attempted?.selectedOption === i;
-        const bg = isSelected ? (opt.isCorrect ? "bg-green-500" : "bg-red-500") : "bg-gray-700";
-        html += `<li><button onclick="checkAnswer(${i})" class="option-btn ${bg} p-2 my-1 w-full rounded">${opt.option}</button></li>`;
-      });
-      html += `</ul><p class="mt-2">Saved: ${q.Saved ? '✅' : '❌'}</p>`;
-      questionBox.innerHTML = html;
-      updateScore();
-      updateSavedList();
-    }
+        const questionBox = document.getElementById("question-box");
+        const scoreBox = document.getElementById("score");
+        const savedList = document.getElementById("saved-list");
 
-    function checkAnswer(i) {
-      const q = questions[currentIndex];
-      const selected = q.Options[i];
-      q.Attempted = { attempted: true, selectedOption: i };
-
-      if (!q.checked) {
-        if (selected.isCorrect) score++;
-        q.checked = true;
-      }
-      saveProgress();
-      renderQuestion();
-    }
-
-    function updateScore() {
-      scoreBox.innerText = `Score: ${score}/${questions.length}`;
-    }
-
-    document.getElementById("prev-btn").onclick = () => {
-      if (currentIndex > 0) currentIndex--;
-      renderQuestion();
-    };
-
-    document.getElementById("next-btn").onclick = () => {
-      if (currentIndex < questions.length - 1) currentIndex++;
-      renderQuestion();
-    };
-
-    document.getElementById("save-btn").onclick = () => {
-      const q = questions[currentIndex];
-      q.Saved = true;
-      saveProgress();
-      renderQuestion();
-    };
-
-    document.getElementById("google-btn").onclick = () => {
-      const query = encodeURIComponent(questions[currentIndex].Question);
-      window.open(`https://www.google.com/search?q=${query}`, "_blank");
-    };
-
-    document.getElementById("export-btn").onclick = () => {
-      const exportData = [
-        { Subject: subject },
-        {
-          Questions: questions.map(q => ({
-            id: q.id,
-            Question: q.Question,
-            Options: q.Options,
-            Attempted: q.Attempted,
-            Saved: q.Saved || false
-          }))
+        function renderQuestion() {
+            const q = questions[currentIndex];
+            let html = `<h2 class="text-xl font-semibold">Q${q.id}: ${q.Question}</h2><ul class="mt-2">`;
+            q.Options.forEach((opt, i) => {
+                const isSelected = q.Attempted?.selectedOption === i;
+                const bg = isSelected ? (opt.isCorrect ? "bg-green-500" : "bg-red-500") : "bg-gray-700";
+                html += `<li><button onclick="checkAnswer(${i})" class="option-btn ${bg} p-2 my-1 w-full rounded">${opt.option}</button></li>`;
+            });
+            html += `</ul><p class="mt-2">Saved: ${q.Saved ? '✅' : '❌'}</p>`;
+            questionBox.innerHTML = html;
+            updateScore();
+            updateSavedList();
         }
-      ];
 
-      const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = "exported_questions.json";
-      a.click();
-      URL.revokeObjectURL(url);
-    };
+        function checkAnswer(i) {
+            const q = questions[currentIndex];
+            const selected = q.Options[i];
+            q.Attempted = { attempted: true, selectedOption: i };
 
-    function updateSavedList() {
-      savedList.innerHTML = "";
-      questions.filter(q => q.Saved).forEach(q => {
-        const li = document.createElement("li");
-        li.innerHTML = `<button class='text-left w-full bg-gray-700 p-2 rounded' onclick='goToQuestion(${q.id})'>Q${q.id}</button>`;
-        savedList.appendChild(li);
-      });
-    }
+            if (!q.checked) {
+                if (selected.isCorrect) score++;
+                q.checked = true;
+            }
+            saveProgress();
+            renderQuestion();
+        }
 
-    function goToQuestion(id) {
-      const index = questions.findIndex(q => q.id === id);
-      if (index !== -1) {
-        currentIndex = index;
-        renderQuestion();
-      }
-    }
-  </script>
+        function updateScore() {
+            scoreBox.innerText = `Score: ${score}/${questions.length}`;
+        }
+
+        document.getElementById("prev-btn").onclick = () => {
+            if (currentIndex > 0) currentIndex--;
+            renderQuestion();
+        };
+
+        document.getElementById("next-btn").onclick = () => {
+            if (currentIndex < questions.length - 1) currentIndex++;
+            renderQuestion();
+        };
+
+        document.getElementById("save-btn").onclick = () => {
+            const q = questions[currentIndex];
+            q.Saved = true;
+            saveProgress();
+            renderQuestion();
+        };
+
+        document.getElementById("google-btn").onclick = () => {
+            const query = encodeURIComponent(questions[currentIndex].Question);
+            window.open(`https://www.google.com/search?q=${query}`, "_blank");
+        };
+
+        document.getElementById("export-btn").onclick = () => {
+            const exportData = [
+                { Subject: subject },
+                {
+                    Questions: questions.map(q => ({
+                        id: q.id,
+                        Question: q.Question,
+                        Options: q.Options,
+                        Attempted: q.Attempted,
+                        Saved: q.Saved || false
+                    }))
+                }
+            ];
+
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "exported_questions.json";
+            a.click();
+            URL.revokeObjectURL(url);
+        };
+
+        function updateSavedList() {
+            savedList.innerHTML = "";
+            questions.filter(q => q.Saved).forEach(q => {
+                const li = document.createElement("li");
+                li.innerHTML = `<button class='text-left w-full bg-gray-700 p-2 rounded' onclick='goToQuestion(${q.id})'>Q${q.id}</button>`;
+                savedList.appendChild(li);
+            });
+        }
+
+        function goToQuestion(id) {
+            const index = questions.findIndex(q => q.id === id);
+            if (index !== -1) {
+                currentIndex = index;
+                renderQuestion();
+            }
+        }
+    </script>
 </body>
+
 </html>
+    

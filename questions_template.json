@@ -1516,6 +1516,54 @@
         ],
         "Attempted": { "attempted": false, "selectedOption": 0 },
         "Saved": false
+    },
+    {
+        "id": 127,
+        "Question": "The mass of an electron is approximately:",
+        "Options": [
+            { "option": "1.67 x 10⁻²⁴ g", "isCorrect": false },
+            { "option": "9.11 x 10⁻²⁸ g", "isCorrect": true },
+            { "option": "1.67 x 10⁻²³ g", "isCorrect": false },
+            { "option": "9.11 x 10⁻²³ g", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 128,
+        "Question": "The atomic mass unit (amu) is defined as:",
+        "Options": [
+            { "option": "1/12 the mass of a carbon-12 atom", "isCorrect": true },
+            { "option": "1/16 the mass of an oxygen atom", "isCorrect": false },
+            { "option": "1/14 the mass of a nitrogen atom", "isCorrect": false },
+            { "option": "1/18 the mass of a water molecule", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 129,
+        "Question": "Which of the following particles has the smallest mass?",
+        "Options": [
+            { "option": "Proton", "isCorrect": false },
+            { "option": "Neutron", "isCorrect": false },
+            { "option": "Electron", "isCorrect": true },
+            { "option": "Alpha particle", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
+    },
+    {
+        "id": 130,
+        "Question": "The nucleus of an atom contains:",
+        "Options": [
+            { "option": "Protons and electrons", "isCorrect": false },
+            { "option": "Neutrons and electrons", "isCorrect": false },
+            { "option": "Protons and neutrons", "isCorrect": true },
+            { "option": "Electrons only", "isCorrect": false }
+        ],
+        "Attempted": { "attempted": false, "selectedOption": 0 },
+        "Saved": false
     }
   ]
   }
